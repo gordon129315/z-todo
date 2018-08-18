@@ -1,0 +1,12 @@
+User Register
+
+    ->
+        action: user add
+        data:
+        {
+            username: string,
+            password: string
+        }
+    <-
+        status: success / failure
+        data: null
